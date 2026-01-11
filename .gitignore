@@ -1,0 +1,28 @@
+# ========================
+# Large datasets
+# ========================
+*.h5ad
+*.h5
+*.npy
+*.npz
+*.csv
+*.tsv
+
+data/
+dataset/
+datasets/
+
+# ========================
+# Python
+# ========================
+__pycache__/
+*.pyc
+.venv/
+env/
+
+# ========================
+# Experiment outputs
+# ========================
+results/
+logs/
+checkpoints/

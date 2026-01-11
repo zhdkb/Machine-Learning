@@ -1,0 +1,9 @@
+scanpy
+numpy
+pandas
+matplotlib
+seaborn
+scikit-learn
+umap-learn
+torch
+python-dateutil
