@@ -12,25 +12,27 @@ import scanpy as sc
 from datetime import datetime
 from innovative_clustering_methods import run_all_methods
 
+PROJECT_ROOT = os.path.dirname(os.path.dirname(__file__))
+DATA_DIR = os.path.join(PROJECT_ROOT, "data")
 
 DATASET_CONFIG = {
     'Tosches_turtle.h5ad': {
         'name': 'TURTLE',
-        'path': 'Tosches_turtle.h5ad',
+        'path': os.path.join(DATA_DIR, "Tosches_turtle.h5ad"),
         'n_clusters': 15,
         'description': '海龟背部皮层：18664细胞，23500基因，15种细胞类型',
         'url': None  # 假设已存在
     },
     'QS_Lung.h5ad': {
         'name': 'QS_Lung',
-        'path': 'QS_Lung.h5ad',
+        'path': os.path.join(DATA_DIR, "QS_Lung.h5ad"),
         'n_clusters': 11,
         'description': '小鼠肺器官：1676细胞，23341基因，11种细胞类型',
         'url': None
     },
     'QS_Diaphragm.h5ad': {
         'name': 'QS_Diaphragm',
-        'path': 'QS_Diaphragm.h5ad',
+        'path': os.path.join(DATA_DIR, "QS_Diaphragm.h5ad"),
         'n_clusters': 5,
         'description': '小鼠膈肌：870细胞，23341基因，5种细胞类型',
         'url': None
