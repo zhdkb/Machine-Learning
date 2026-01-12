@@ -46,7 +46,7 @@ cd submit
 .\scripts\run_all_comprehensive.ps1
 
 # 或运行简化版脚本（更快）
-.\scripts\simple_run.ps1
+.\scripts\one_click_run.ps1
 ```
 
 ### 方案2: 手动运行（逐步执行）
