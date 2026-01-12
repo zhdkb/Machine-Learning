@@ -17,9 +17,9 @@ submit/
 │   ├── multi_dataset_runner.py        # 多数据集批量运行
 │
 ├── data/                              # 所有输入数据文件
-│   ├── Tosches_turtle.h5ad           # TURTLE数据集 (324MB，真实数据)
-│   ├── Quake_Lung.h5ad               # Quake Lung (35MB，演示数据)
-│   └── Quake_Diaphragm.h5ad          # Quake Diaphragm (15MB，演示数据)
+│   ├── Tosches_turtle.h5ad           # TURTLE数据集 (309MB，数据集)
+│   ├── Quake_Lung.h5ad               # Quake Lung (33.7MB，数据集)
+│   └── Quake_Diaphragm.h5ad          # Quake Diaphragm (14.4MB，数据集)
 │
 ├── results/                           # 所有实验结果
 │   ├── 多数据集对比分析报告.md
