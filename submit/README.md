@@ -15,7 +15,6 @@ submit/
 │   ├── clustering_pipeline.py         # 基础任务主程序 (250行)
 │   ├── innovative_clustering_methods.py # 7种创新算法库 (450行)
 │   ├── multi_dataset_runner.py        # 多数据集批量运行 (380行)
-│   └── final_package_and_summary.py   # 打包脚本
 │
 ├── data/                              # 所有输入数据文件
 │   ├── Tosches_turtle.h5ad           # TURTLE数据集 (324MB，真实数据)
