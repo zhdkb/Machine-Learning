@@ -22,6 +22,7 @@ submit/
 │   └── Quake_Diaphragm.h5ad          # Quake Diaphragm (15MB，演示数据)
 │
 ├── results/                           # 所有实验结果
+│   ├── 多数据集对比分析报告.md
 │   ├── all_results.json               # 完整原始结果数据
 │   ├── method_comparison.csv          # 方法性能对比表格
 │   └── figures/                       # 高质量可视化图表
